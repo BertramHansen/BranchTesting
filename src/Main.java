@@ -16,6 +16,18 @@ public class Main {
 
         kat.eat("Fisk");
 
+        System.out.println("Sur Kat:");
+        kat.showMood(true);
+
+        System.out.println("Glad kat:");
+        kat.showMood(true);
+
+        System.out.println("Sur hund:");
+        hund.showMood(false);
+
+
+        System.out.println("Glad hund:");
+        hund.showMood(true);
 
     }
 
