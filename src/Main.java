@@ -12,6 +12,11 @@ public class Main {
         System.out.println("Cat says:");
         kat.makeSound();
 
+        hund.eat("Kødben");
+
+        kat.eat("Fisk");
+
+
     }
 
 }
